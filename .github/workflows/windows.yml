@@ -24,4 +24,3 @@ jobs:
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region us-cal-1 3389"'
     - name: Сonnect to your Windows OS.
       run: cmd /c start.bat
-    - name: Successfully made!You can close the tab now.
