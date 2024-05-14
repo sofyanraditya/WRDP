@@ -11,7 +11,7 @@ jobs:
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/sofyanraditya/WRDP/master/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/sofyanraditya/WRDP/master/start.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/sofyanraditya/WRDP/master/loop.bat -OutFile loop.bat
     - name: Extract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect to Ngrok.
