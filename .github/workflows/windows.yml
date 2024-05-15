@@ -147,7 +147,7 @@ jobs:
     - name: Successfully made!You can close the tab now.
       run: cmd /c loop.bat
 
-r7:
+  r7:
     runs-on: windows-latest
     steps:
     - name: Download Ngrok.
